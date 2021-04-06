@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  app:
+    image: pogmaitan/imersao-fsfc2_desafio1
+    build: .
+    container_name: fsfc2_desafio1
+    volumes:
+      - .:/go/src/
+    ports: 
+      - 8000:8000
