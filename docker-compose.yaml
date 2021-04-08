@@ -4,7 +4,7 @@ services:
   app:
     image: pogmaitan/imersao-fsfc2_desafio1
     build: .
-    container_name: fsfc2_desafio1
+    container_name: imersao-fsfc2_desafio1
     volumes:
       - .:/go/src/
     ports: 
